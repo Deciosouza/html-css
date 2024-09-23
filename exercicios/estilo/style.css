@@ -23,7 +23,7 @@ body, ul, li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 
@@ -31,7 +31,7 @@ a {
     background: #FFFFFF;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
