@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÃO DE COR E FONT GLOBAL */
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #EFEFEF;
+    --cor2: #6978AB;
+    --cor3: #343C5C;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+/* CONFIGURAÇÃO DE COR CORPO TODO */
+
+body, ul, li {
+    margin-top: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor0)
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    background: #FFFFFF;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+/* CONFIGURAÇÃO ESPAÇO DE NAVEGAÇÃO */
+
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    margin-left: 10px;
+}
+ 
+.menu li a {
+    display: block;
+    padding: 0px
+}
+
+/* CONFIGURAÇÃO ESPAÇO DE CONTEÚDO PRINCIPAL */
+
+.main {
+    background: #EFEFEF;
+    padding:0px;
+
+    display: flex;
+    flex-flow: row wrap;
+    height: 45vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>p {
+    padding-top: 0px;
+    flex-flow: row wrap;
+    width: 50vw;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+
+}
+
+/* CONFIGURAÇÃO ESPAÇO DE ARTIGO PRINCIPAL */
+
+article>h1 {
+    color: #343C5C;
+    margin: 10px 120px 10px 120px;
+}
+
+article>p {
+    text-align: justify;
+}
+/* CONFIGURAÇÃO DE PARÁGRAFO */
+
+p {
+    color: black;
+    margin: 10px 120px 10px 120px;
+}
+
+/* CONFIGURAÇÃO DO RODAPÉ */
+
+.footer>p {
+    background-color: var(--cor3);
+    color: var(--cor0);
+    text-align: center;
+}
