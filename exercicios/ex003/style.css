@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding-top: 0px;
+
+}
+body {
+    background-color: blue;
+ 
+}
+
+.container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+header {
+    flex-flow: row wrap;
+
+
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 206, 206);
+}
+
+
+/* não lembro como deixar no meio certinho */
+article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center 
+    align-items: center;
+    background-color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
