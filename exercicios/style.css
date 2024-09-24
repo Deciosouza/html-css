@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+ background-color: aqua;    
+}
+
+.container {
+    display: flex;
+    background-color: brown;
+}
+
+/* CONFIGURAÇÃO DE COR E FONT GLOBAL */
+
+:root {
+    --cor0: #FFFFFF;
+    --cor1: #EFEFEF;
+    --cor2: #6978AB;
+    --cor3: #343C5C;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+/* CONFIGURAÇÃO DE COR CORPO TODO */
