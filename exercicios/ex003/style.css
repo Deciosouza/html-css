@@ -6,7 +6,7 @@
 
 }
 body {
-    background-color: blue;
+    background-color: rgb(0, 47, 255);
  
 }
 
@@ -14,15 +14,10 @@ body {
     display: flex;
     background-color: rgb(255, 255, 255);
     justify-content: space-around;
+    flex-flow: row wrap;
     align-items: center;
     margin-top: 5px;
     padding: 20px;
-}
-
-header {
-    flex-flow: row wrap;
-
-
 }
 
 main{
@@ -38,13 +33,20 @@ main{
 article {
     display: flex;
     flex-flow: row wrap;
-    justify-content:center 
+    justify-content:center; 
     align-items: center;
     background-color: white;
+}
+p{
+    text-align: justify;
 }
 
 footer {
     background-color: black;
     text-align: center;
     color: white;
+}
+
+.container>nav{
+    font-size: 40px;
 }
