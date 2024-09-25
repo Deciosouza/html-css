@@ -1,33 +1,25 @@
 body {
     background-color: rgb(255, 255, 255);
     max-width: 90%;
-    margin: 0 auto;
- 
+    margin: 40px auto; 
 }
 
 header {
     display: flex;
     background-color: rgb(255, 255, 255);
-    justify-content: space-around;
-    flex-flow: row wrap;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 5px;
-    padding: 20px;
-    
+    padding-bottom: 50px;
 }
 
 main{
     display: flex;
     flex-flow: row wrap;
-    /* flex-direction: row;
-    flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
     background-color: rgb(206, 206, 206);
 }
 
-
-/* não lembro como deixar no meio certinho */
 article {
     display: flex;
     flex-flow: row wrap;
@@ -35,17 +27,9 @@ article {
     align-items: center;
     background-color: white;
 }
-p{
-    text-align: justify;
-}
 
 footer {
     background-color: black;
     text-align: center;
     color: white;
-}
-
-header>nav{
-    font-size: 15px;
-        
 }
